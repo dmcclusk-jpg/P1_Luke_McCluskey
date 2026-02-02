@@ -10,7 +10,8 @@ p {
 }
 
 h1 {
-	font-style: boldital;
+	font-style: bold;
+	font-style: italic;
 	font-weight: 40px;
 	font-size: 50px;
 	font-family: Back Issues BB;
