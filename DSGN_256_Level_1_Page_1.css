@@ -9,7 +9,8 @@ p {
 	letter-spacing: normal;
 	height: fit-content;
 	width: fit-content;
-	color: beige;
+	color: darkred;
+	background-color: beige;
 }
 
 h1 {
