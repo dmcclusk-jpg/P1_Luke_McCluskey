@@ -1,3 +1,7 @@
+* {
+	background-color: palegoldenrod;
+}
+
 p {
 	font-style: bold;
 	font-weight: 40px;
@@ -54,4 +58,7 @@ h1 {
 	text-transform: uppercase;
 	line-height: 75px;
 	letter-spacing: normal;
+	color: darkred;
+	background-color: beige;
+	padding: 25px 50px;
 }
