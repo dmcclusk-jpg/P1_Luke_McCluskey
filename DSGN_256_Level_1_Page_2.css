@@ -7,6 +7,41 @@ p {
 	text-transform: uppercase;
 	line-height: 75px;
 	letter-spacing: normal;
+	height: fit-content;
+	width: fit-content;
+	color: darkred;
+	background-color: beige;
+	padding: 25px 50px;
+}
+
+b {
+	font-style: bold;
+	font-weight: 40px;
+	font-size: 50px;
+	font-family: Back Issues BB;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 75px;
+	letter-spacing: normal;
+	height: fit-content;
+	width: fit-content;
+	color: darkred;
+	background-color: beige;
+}
+
+i {
+	font-style: bold;
+	font-weight: 40px;
+	font-size: 50px;
+	font-family: Back Issues BB;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 75px;
+	letter-spacing: normal;
+	height: fit-content;
+	width: fit-content;
+	color: darkred;
+	background-color: beige;
 }
 
 h1 {
