@@ -2,7 +2,7 @@
 	background-color: cadetblue;
 }
 
-p {
+p,b,i {
 	font-style: bold;
 	font-weight: 40px;
 	font-size: 50px;
@@ -33,49 +33,5 @@ h1 {
 	background-color: beige;
 }
 
-b {
-	font-style: bold;
-	font-weight: 40px;
-	font-size: 50px;
-	font-family: Back Issues BB;
-	text-align: left;
-	text-transform: uppercase;
-	line-height: 75px;
-	letter-spacing: normal;
-	height: fit-content;
-	width: fit-content;
-	color: darkred;
-	background-color: beige;
-}
-
-i {
-	font-style: bold;
-	font-weight: 40px;
-	font-size: 50px;
-	font-family: Back Issues BB;
-	text-align: left;
-	text-transform: uppercase;
-	line-height: 75px;
-	letter-spacing: normal;
-	height: fit-content;
-	width: fit-content;
-	color: darkred;
-	background-color: beige;
-}
-
-href {
-	font-style: bold;
-	font-weight: 40px;
-	font-size: 50px;
-	font-family: Back Issues BB;
-	text-align: left;
-	text-transform: uppercase;
-	line-height: 75px;
-	letter-spacing: normal;
-	height: fit-content;
-	width: fit-content;
-	color: darkred;
-	background-color: beige;
-}
 
 
