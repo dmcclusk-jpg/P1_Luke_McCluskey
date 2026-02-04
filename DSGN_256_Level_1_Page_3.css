@@ -79,3 +79,17 @@ h2 {
 	background-color: beige;
 	padding: 25px 50px;
 }
+
+ol, li {
+	font-weight: 20px;
+	font-size: 25px;
+	font-family: Back Issues BB;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 40px;
+	letter-spacing: normal;
+	height: fit-content;
+	width: fit-content;
+	color: darkred;
+	background-color: beige;
+}
