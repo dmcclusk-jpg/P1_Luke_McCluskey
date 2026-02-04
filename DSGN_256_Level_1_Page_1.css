@@ -7,6 +7,9 @@ p {
 	text-transform: uppercase;
 	line-height: 75px;
 	letter-spacing: normal;
+	height: fit-content;
+	width: fit-content;
+	color: beige;
 }
 
 h1 {
