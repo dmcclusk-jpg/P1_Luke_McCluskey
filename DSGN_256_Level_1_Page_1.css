@@ -1,31 +1,33 @@
 * {
 	background-color: palegoldenrod;
+	display: inline-block;
+	align-items: center;
 }
 
 p {
 	font-style: bold;
 	font-weight: 40px;
-	font-size: 50px;
+	font-size: 20px;
 	font-family: Back Issues BB;
 	text-align: left;
 	text-transform: uppercase;
-	line-height: 75px;
+	line-height: 25px;
 	letter-spacing: normal;
-	height: fit-content;
-	width: fit-content;
+	height: 200px;
+	width: 200px;
 	color: darkred;
 	background-color: beige;
-	padding: 25px 50px;
+	padding: 25px 100px;
 }
 
 b {
 	font-style: bold;
 	font-weight: 40px;
-	font-size: 50px;
+	font-size: 20px;
 	font-family: Back Issues BB;
 	text-align: left;
 	text-transform: uppercase;
-	line-height: 75px;
+	line-height: 25px;
 	letter-spacing: normal;
 	height: fit-content;
 	width: fit-content;
@@ -36,11 +38,11 @@ b {
 i {
 	font-style: bold;
 	font-weight: 40px;
-	font-size: 50px;
+	font-size: 20px;
 	font-family: Back Issues BB;
 	text-align: left;
 	text-transform: uppercase;
-	line-height: 75px;
+	line-height: 25px;
 	letter-spacing: normal;
 	height: fit-content;
 	width: fit-content;
@@ -65,4 +67,6 @@ h1 {
 	padding: 25px 50px;
 }
 
-
+title {
+	display: none;
+}
