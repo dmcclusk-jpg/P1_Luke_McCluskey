@@ -16,6 +16,9 @@ p {
 	color: darkred;
 	background-color: beige;
 	padding: 25px 50px;
+	margin: 100px;
+	position: relative;
+	top: 800px;
 }
 
 b {
@@ -61,4 +64,5 @@ h1 {
 	color: darkred;
 	background-color: beige;
 	padding: 25px 50px;
+	position: fixed;
 }

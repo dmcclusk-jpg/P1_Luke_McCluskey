@@ -1,6 +1,21 @@
 * {
 	background-color: palegoldenrod;
 	display: inline-block;
+
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	height: 100vh;
+	width:100vw;
+	position: relative;
+	display: inline-block;
 }
 
 p {
@@ -17,6 +32,7 @@ p {
 	color: darkred;
 	background-color: beige;
 	padding: 25px 100px;
+	position: relative;
 }
 
 b {
@@ -32,6 +48,7 @@ b {
 	width: fit-content;
 	color: darkred;
 	background-color: beige;
+	position: relative;
 }
 
 i {
@@ -47,6 +64,7 @@ i {
 	width: fit-content;
 	color: darkred;
 	background-color: beige;
+	position: relative;
 }
 
 h1 {
@@ -64,6 +82,7 @@ h1 {
 	color: darkred;
 	background-color: beige;
 	padding: 25px 50px;
+	position: fixed;
 }
 
 title {
