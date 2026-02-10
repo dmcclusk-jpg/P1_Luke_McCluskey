@@ -1,13 +1,12 @@
 * {
 	background-color: palegoldenrod;
-	display: block;
+	display: inline-block;
 }
 
 .container {
-	display: block;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
 }
 
 .paragraph1 {
@@ -19,8 +18,6 @@
 	text-transform: uppercase;
 	line-height: 25px;
 	letter-spacing: normal;
-	height: fit-content;
-	width: fit-content;
 	color: darkred;
 	background-color: beige;
 	padding: 25px 100px;
