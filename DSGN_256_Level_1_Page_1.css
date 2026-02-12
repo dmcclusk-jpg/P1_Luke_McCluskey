@@ -1,6 +1,5 @@
 * {
 	background-color: palegoldenrod;
-	display: inline-block;
 }
 
 .container {
@@ -20,8 +19,11 @@
 	letter-spacing: normal;
 	color: darkred;
 	background-color: beige;
-	padding: 25px 100px;
+	padding: 25px 25px 25px 25px;
 	position: relative;
+	height: 200px;
+	width: 900px;
+	margin: 25px 25px;
 }
 
 .paragraph2 {
@@ -33,11 +35,13 @@
 	text-transform: uppercase;
 	line-height: 25px;
 	letter-spacing: normal;
-	height: fit-content;
-	width: fit-content;
 	color: darkred;
 	background-color: beige;
+	padding: 25px 25px 25px 25px;
 	position: relative;
+	height: 200px;
+	width: 600px;
+	margin: 25px 25px;
 }
 
 .paragraph3 {
@@ -49,11 +53,26 @@
 	text-transform: uppercase;
 	line-height: 25px;
 	letter-spacing: normal;
-	height: fit-content;
-	width: fit-content;
+	padding: 25px 25px 25px 25px;
+	position: relative;
+	height: 200px;
+	width: 600px;
 	color: darkred;
 	background-color: beige;
-	position: relative;
+	margin: 25px 25px;
+}
+
+.container2 {
+	height: 100vh;
+	width:25vw;
+	flex-direction: row;
+	align-items: row;
+	justify-content: space-around;
+}
+
+img {
+	height: fit-content;
+	width: 550px;
 }
 
 .paragraph4 {
@@ -65,11 +84,13 @@
 	text-transform: uppercase;
 	line-height: 25px;
 	letter-spacing: normal;
-	height: fit-content;
-	width: fit-content;
+	padding: 25px 25px 25px 25px;
+	position: relative;
+	height: 400px;
+	width: 500px;
 	color: darkred;
 	background-color: beige;
-	position: relative;
+	margin: 25px 25px;
 }
 
 h1 {
@@ -86,8 +107,8 @@ h1 {
 	width: fit-content;
 	color: darkslateblue;
 	background-color: beige;
-	padding: 25px 50px;
-	position: fixed;
+	padding: 25px 25px 25px 25px;
+	position: relative;
 }
 
 title {
