@@ -2,6 +2,15 @@
 	background-color: palegoldenrod;
 }
 
+.container {
+	flex-direction: column;
+	height: 100vh;
+	width: 100vw;
+	align-items: cemter;
+	justify-content: center;
+	position: relative;
+}
+
 p {
 	font-style: bold;
 	font-weight: 40px;
@@ -48,6 +57,14 @@ i {
 	background-color: beige;
 }
 
+.container {
+	flex-direction: row;
+	height: 50vh;
+	width: 100vw;
+	align-items: space-evenly;
+	justify-content: center;
+}
+
 h1 {
 	font-style: bold;
 	font-style: italic;
@@ -63,6 +80,11 @@ h1 {
 	color: darkred;
 	background-color: beige;
 	padding: 25px 50px;
+	position: relative;
+	height:fit-content;
+	width:900px;
+	align-items: space-evenly;
+	justify-content: center;
 }
 
 h2 {

@@ -6,6 +6,23 @@
 	width: 100vw;
 	height: 100vh;
 	display: flex;
+	flex-direction: column;
+}
+
+.title-container {
+	display: flex;
+	width: 100vw;
+	height: 20vh;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.container2 {
+	display: flex;
+	width: 100vw;
+	flex-direction: row;
+	gap: 10px;
 }
 
 .paragraph1 {
@@ -19,11 +36,23 @@
 	letter-spacing: normal;
 	color: darkred;
 	background-color: beige;
-	padding: 25px 25px 25px 25px;
+	padding: 25px;
 	position: relative;
 	height: 200px;
 	width: 900px;
-	margin: 25px 25px;
+	margin: 25px;
+	border: dashed;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
+}
+
+b {
+	background-color: beige;
+}
+
+i {
+	background-color: beige;
 }
 
 .paragraph2 {
@@ -37,11 +66,15 @@
 	letter-spacing: normal;
 	color: darkred;
 	background-color: beige;
-	padding: 25px 25px 25px 25px;
+	padding: 25px;
 	position: relative;
-	height: 200px;
+	height: 250px;
 	width: 600px;
-	margin: 25px 25px;
+	margin: 25px;
+	border: dashed;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
 }
 
 .paragraph3 {
@@ -53,26 +86,37 @@
 	text-transform: uppercase;
 	line-height: 25px;
 	letter-spacing: normal;
-	padding: 25px 25px 25px 25px;
+	padding: 25px;
 	position: relative;
-	height: 200px;
+	height: 300px;
 	width: 600px;
 	color: darkred;
 	background-color: beige;
-	margin: 25px 25px;
+	margin: 25px;
+	border: dashed;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
 }
 
-.container2 {
+.container3 {
+	display: flex;
 	height: 100vh;
-	width:25vw;
-	flex-direction: row;
-	align-items: row;
-	justify-content: space-around;
+	width: 100%;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 img {
 	height: fit-content;
-	width: 550px;
+	width: 300px;
+	border: dashed;
+	border-width: 10px;
+	border-color: darkred;
+	border-spacing: 5px;
+	padding: 20px;
+	background-color: beige;
 }
 
 .paragraph4 {
@@ -84,13 +128,17 @@ img {
 	text-transform: uppercase;
 	line-height: 25px;
 	letter-spacing: normal;
-	padding: 25px 25px 25px 25px;
+	padding: 25px;
 	position: relative;
-	height: 400px;
+	height: 250px;
 	width: 500px;
 	color: darkred;
 	background-color: beige;
-	margin: 25px 25px;
+	margin: 25px;
+	border: dashed;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
 }
 
 h1 {
@@ -103,13 +151,20 @@ h1 {
 	text-transform: uppercase;
 	line-height: 75px;
 	letter-spacing: normal;
+	padding: 25px;
+	position: relative;
 	height: fit-content;
 	width: fit-content;
-	color: darkslateblue;
+	color: darkblue;
 	background-color: beige;
-	padding: 25px 25px 25px 25px;
-	position: relative;
+	margin: 25px;
+	border: dashed;
+	border-width: 10px;
+	border-color: darkred;
+	border-spacing: 5px;
 }
+
+
 
 title {
 	display: none;

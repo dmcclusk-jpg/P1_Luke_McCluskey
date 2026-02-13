@@ -2,29 +2,66 @@
 	background-color: palegoldenrod;
 }
 
+.container {
+	display: flex;
+	flex-direction: row;
+	height: 100vh;
+	width: 100vw;
+	margin: 20px;
+}
+
+.title-container {
+	display: flex;
+	height: 20vh;
+	width: 100vw;
+	align-items: center;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.container2 {
+	display:flex;
+	flex-direction: row;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+}
+
+img {
+	width: 50vw;
+	border: dashed;
+	border-width: 10px;
+	border-color: darkred;
+	border-spacing: 5px;
+	padding: 20px;
+	background-color: beige;
+}
+
 p {
 	font-style: bold;
 	font-weight: 40px;
-	font-size: 50px;
+	font-size: 25px;
 	font-family: Back Issues BB;
 	text-align: left;
 	text-transform: uppercase;
-	line-height: 75px;
+	line-height: 20px;
 	letter-spacing: normal;
-	height: fit-content;
-	width: fit-content;
+	width: 50vw;
 	color: darkred;
 	background-color: beige;
 	padding: 25px 50px;
 	margin: 100px;
 	position: relative;
-	top: 800px;
+	border: dashed;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
 }
 
 b {
 	font-style: bold;
 	font-weight: 40px;
-	font-size: 50px;
+	font-size: 25px;
 	font-family: Back Issues BB;
 	text-align: left;
 	text-transform: uppercase;
@@ -39,7 +76,7 @@ b {
 i {
 	font-style: bold;
 	font-weight: 40px;
-	font-size: 50px;
+	font-size: 25px;
 	font-family: Back Issues BB;
 	text-align: left;
 	text-transform: uppercase;
@@ -63,6 +100,14 @@ h1 {
 	letter-spacing: normal;
 	color: darkred;
 	background-color: beige;
-	padding: 25px 50px;
+	padding: 50px;
 	position: fixed;
+	height:fit-content;
+	width:900px;
+	align-items: space-evenly;
+	justify-content: center;
+	border: dashed;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
 }
