@@ -1,0 +1,83 @@
+body {
+	background-color: palegoldenrod;
+	overflow: hidden;
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	width: 90vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.title-container {
+	background-color: beige;
+	display: flex;
+	width: 100%;
+	height: 20vh;
+	justify-content: center;
+	align-items: center;
+	border: dashed;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
+}
+
+.paragraph1 {
+	background-color: beige;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 20vh;
+	border: dashed;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
+}
+
+.paragraph2 {
+	background-color: beige;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 20vh;
+	border: dashed;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
+}
+
+
+.paragraph3 {
+	background-color: beige;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 20vh;
+	border: dashed;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
+}
+
+p {
+	font-style: bold;
+	font-style: italic;
+	font-weight: 400px;
+	font-size: 24px;
+	font-family: Back Issues BB;
+	text-align: left;
+	color: darkred;
+	background-color: beige;
+}

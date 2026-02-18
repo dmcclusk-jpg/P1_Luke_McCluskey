@@ -47,14 +47,6 @@
 	border-spacing: 5px;
 }
 
-b {
-	background-color: beige;
-}
-
-i {
-	background-color: beige;
-}
-
 .paragraph2 {
 	font-style: bold;
 	font-weight: 40px;
@@ -141,6 +133,14 @@ img {
 	border-spacing: 5px;
 }
 
+b {
+	background-color: beige;
+}
+
+i {
+	background-color: beige;
+}
+
 h1 {
 	font-style: bold;
 	font-style: italic;
@@ -163,8 +163,6 @@ h1 {
 	border-color: darkred;
 	border-spacing: 5px;
 }
-
-
 
 title {
 	display: none;
