@@ -107,7 +107,7 @@ img {
 	border-width: 10px;
 	border-color: darkred;
 	border-spacing: 5px;
-	padding: 20px;
+	padding: 25px;
 	background-color: beige;
 }
 
@@ -147,9 +147,9 @@ h1 {
 	font-weight: 40px;
 	font-size: 50px;
 	font-family: Back Issues BB;
-	text-align: left;
+	text-align: center;
 	text-transform: uppercase;
-	line-height: 75px;
+	line-height: 60px;
 	letter-spacing: normal;
 	padding: 25px;
 	position: relative;
