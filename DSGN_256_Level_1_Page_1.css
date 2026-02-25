@@ -100,7 +100,7 @@
 	align-items: center;
 }
 
-img {
+svg {
 	height: fit-content;
 	width: 300px;
 	border: dashed;
