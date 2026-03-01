@@ -2,11 +2,12 @@
 	background-color: palegoldenrod;
 }
 
-.container {
+.container1 {
 	width: 100vw;
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
+	gap: 20px;
 }
 
 .title-container {

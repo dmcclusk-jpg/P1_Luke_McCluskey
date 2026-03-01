@@ -31,16 +31,22 @@
 .paragraph1 {
 	font-style: bold;
 	font-weight: 40px;
-	font-size: 50px;
+	font-size: 20px;
 	font-family: Back Issues BB;
 	text-align: left;
 	text-transform: uppercase;
-	line-height: 75px;
+	line-height: 24px;
 	letter-spacing: normal;
-	height: fit-content;
-	width: fit-content;
 	color: darkred;
 	background-color: beige;
+	padding: 25px;
+	height: fit-content;
+	width: 30vw;
+	border: solid;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
+	border-radius: 25px;
 }
 
 b {
@@ -51,7 +57,7 @@ i {
 	background-color: beige;
 }
 
-heading1 {
+.heading1 {
 	font-style: bold;
 	font-style: italic;
 	font-weight: 40px;
@@ -61,12 +67,15 @@ heading1 {
 	text-transform: uppercase;
 	line-height: 60px;
 	letter-spacing: normal;
-	color: darkred;
-	background-color: beige;
 	padding: 25px;
 	position: relative;
-	border: dashed;
+	height: fit-content;
+	width: fit-content;
+	color: darkblue;
+	background-color: beige;
+	border: solid;
 	border-width: 10px;
-	border-color: darkblue;
+	border-color: darkred;
 	border-spacing: 5px;
+	border-radius: 25px;
 }
