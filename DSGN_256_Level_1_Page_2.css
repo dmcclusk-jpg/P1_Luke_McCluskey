@@ -45,10 +45,11 @@
 	width: 45vw;
 	margin-right: 10px;
 	margin-left: 2.5vw;
-	border: dashed;
+	border: solid;
 	border-width: 10px;
 	border-color: darkblue;
 	border-spacing: 5px;
+	border-radius: 25px;
 }
 
 img {
@@ -56,13 +57,14 @@ img {
 	height: fit-content;
 	margin-right: 2.5vw;
 	margin-left: 10px;
-	border: dashed;
-	border-width: 10px;
-	border-color: darkred;
-	border-spacing: 5px;
 	padding: 25px;
 	background-color: beige;
 	position: relative;
+	border: solid;
+	border-width: 10px;
+	border-color: darkred;
+	border-spacing: 5px;
+	border-radius: 25px;
 }
 
 b {
@@ -73,7 +75,7 @@ i {
 	background-color: beige;
 }
 
-heading1 {
+.heading1 {
 	font-style: bold;
 	font-style: italic;
 	font-weight: 40px;
@@ -83,12 +85,15 @@ heading1 {
 	text-transform: uppercase;
 	line-height: 60px;
 	letter-spacing: normal;
-	color: darkred;
-	background-color: beige;
 	padding: 25px;
 	position: relative;
-	border: dashed;
+	height: fit-content;
+	width: fit-content;
+	color: darkblue;
+	background-color: beige;
+	border: solid;
 	border-width: 10px;
-	border-color: darkblue;
+	border-color: darkred;
 	border-spacing: 5px;
+	border-radius: 25px;
 }

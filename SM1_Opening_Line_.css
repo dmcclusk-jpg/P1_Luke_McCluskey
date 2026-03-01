@@ -2,7 +2,33 @@
 	background-color: palegoldenrod;
 }
 
-p {
+.container1 {
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+.title-container {
+	display: flex;
+	flex-direction: column;
+	height: fit-content;
+	width: 50vw;
+	margin-top: 20px;
+}
+
+.container2 {
+	display: flex;
+	flex-direction: row;
+	height: 70vh;
+	width: 100vw;
+	justify-content: center;
+}
+
+.paragraph1 {
 	font-style: bold;
 	font-weight: 40px;
 	font-size: 50px;
@@ -18,49 +44,29 @@ p {
 }
 
 b {
-	font-style: bold;
-	font-style: italic;
-	font-weight: 40px;
-	font-size: 50px;
-	font-family: Back Issues BB;
-	text-align: left;
-	text-transform: uppercase;
-	line-height: 75px;
-	letter-spacing: normal;
-	height: fit-content;
-	width: fit-content;
-	color: darkred;
 	background-color: beige;
 }
 
 i {
-	font-style: bold;
-	font-style: italic;
-	font-weight: 40px;
-	font-size: 50px;
-	font-family: Back Issues BB;
-	text-align: left;
-	text-transform: uppercase;
-	line-height: 75px;
-	letter-spacing: normal;
-	height: fit-content;
-	width: fit-content;
-	color: darkred;
 	background-color: beige;
 }
 
-h1 {
+heading1 {
 	font-style: bold;
 	font-style: italic;
 	font-weight: 40px;
 	font-size: 50px;
 	font-family: Back Issues BB;
-	text-align: left;
+	text-align: center;
 	text-transform: uppercase;
-	line-height: 75px;
+	line-height: 60px;
 	letter-spacing: normal;
-	height: fit-content;
-	width: fit-content;
 	color: darkred;
 	background-color: beige;
+	padding: 25px;
+	position: relative;
+	border: dashed;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
 }

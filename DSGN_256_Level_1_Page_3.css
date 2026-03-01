@@ -51,10 +51,11 @@
 	padding: 25px;
 	height: fit-content;
 	width: 30vw;
-	border: dashed;
+	border: solid;
 	border-width: 10px;
 	border-color: darkblue;
 	border-spacing: 5px;
+	border-radius: 25px;
 }
 
 .paragraph2 {
@@ -71,10 +72,11 @@
 	padding: 25px;
 	height: fit-content;
 	width: 30vw;
-	border: dashed;
+	border: solid;
 	border-width: 10px;
 	border-color: darkblue;
 	border-spacing: 5px;
+	border-radius: 25px;
 }
 
 .container4 {
@@ -99,10 +101,11 @@
 	padding: 25px;
 	height: fit-content;
 	width: 60vw;
-	border: dashed;
+	border: solid;
 	border-width: 10px;
 	border-color: darkblue;
 	border-spacing: 5px;
+	border-radius: 25px;
 }
 
 b {
@@ -113,7 +116,7 @@ i {
 	background-color: beige;
 }
 
-heading1 {
+.heading1 {
 	font-style: bold;
 	font-style: italic;
 	font-weight: 40px;
@@ -123,17 +126,20 @@ heading1 {
 	text-transform: uppercase;
 	line-height: 60px;
 	letter-spacing: normal;
-	color: darkred;
-	background-color: beige;
 	padding: 25px;
 	position: relative;
-	border: dashed;
+	height: fit-content;
+	width: fit-content;
+	color: darkblue;
+	background-color: beige;
+	border: solid;
 	border-width: 10px;
-	border-color: darkblue;
+	border-color: darkred;
 	border-spacing: 5px;
+	border-radius: 25px;
 }
 
-heading2 {
+.heading2 {
 	font-style: bold;
 	font-style: italic;
 	font-weight: 20px;
@@ -141,10 +147,19 @@ heading2 {
 	font-family: Back Issues BB;
 	text-align: center;
 	text-transform: uppercase;
-	line-height: 40px;
+	line-height: 30px;
 	letter-spacing: normal;
-	color: darkred;
+	padding: 12.5px;
+	position: relative;
+	height: fit-content;
+	width: fit-content;
+	color: darkblue;
 	background-color: beige;
+	border: solid;
+	border-width: 10px;
+	border-color: darkred;
+	border-spacing: 5px;
+	border-radius: 25px;
 }
 
 ol {

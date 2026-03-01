@@ -41,10 +41,11 @@
 	height: 200px;
 	width: 900px;
 	margin: 25px;
-	border: dashed;
+	border: solid;
 	border-width: 10px;
 	border-color: darkblue;
 	border-spacing: 5px;
+	border-radius: 25px;
 }
 
 .paragraph2 {
@@ -63,10 +64,11 @@
 	height: 250px;
 	width: 600px;
 	margin: 25px;
-	border: dashed;
+	border: solid;
 	border-width: 10px;
 	border-color: darkblue;
 	border-spacing: 5px;
+	border-radius: 25px;
 }
 
 .paragraph3 {
@@ -85,10 +87,11 @@
 	color: darkred;
 	background-color: beige;
 	margin: 25px;
-	border: dashed;
+	border: solid;
 	border-width: 10px;
 	border-color: darkblue;
 	border-spacing: 5px;
+	border-radius: 25px;
 }
 
 .container3 {
@@ -100,15 +103,16 @@
 	align-items: center;
 }
 
-svg {
+img {
 	height: fit-content;
 	width: 300px;
-	border: dashed;
+	border: solid;
 	border-width: 10px;
 	border-color: darkred;
 	border-spacing: 5px;
 	padding: 25px;
 	background-color: beige;
+	border-radius: 25px;
 }
 
 .paragraph4 {
@@ -127,10 +131,11 @@ svg {
 	color: darkred;
 	background-color: beige;
 	margin: 25px;
-	border: dashed;
+	border: solid;
 	border-width: 10px;
 	border-color: darkblue;
 	border-spacing: 5px;
+	border-radius: 25px;
 }
 
 b {
@@ -141,7 +146,7 @@ i {
 	background-color: beige;
 }
 
-h1 {
+.heading1 {
 	font-style: bold;
 	font-style: italic;
 	font-weight: 40px;
@@ -157,13 +162,9 @@ h1 {
 	width: fit-content;
 	color: darkblue;
 	background-color: beige;
-	margin: 25px;
-	border: dashed;
+	border: solid;
 	border-width: 10px;
 	border-color: darkred;
 	border-spacing: 5px;
-}
-
-title {
-	display: none;
+	border-radius: 25px;
 }
