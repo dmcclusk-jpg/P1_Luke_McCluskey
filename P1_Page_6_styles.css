@@ -12,6 +12,7 @@
 
 .title-container {
 	display: flex;
+	flex-direction: row;
 	width: 100vw;
 	height: 20vh;
 	justify-content: center;
@@ -24,6 +25,15 @@
 	width: 100vw;
 	flex-direction: row;
 	gap: 10px;
+	justify-content: margin-top;
+	align-items: margin-top;
+}
+
+.container3 {
+	display: flex;
+	width: 50vw;
+	flex-direction: column;
+	gap: 10px;
 }
 
 .paragraph1 {
@@ -35,12 +45,12 @@
 	text-transform: uppercase;
 	line-height: 25px;
 	letter-spacing: normal;
-	color: darkred;
-	background-color: beige;
 	padding: 25px;
 	position: relative;
 	height: fit-content;
-	width: 900px;
+	width: 600px;
+	color: darkred;
+	background-color: beige;
 	margin: 25px;
 	border: solid;
 	border-width: 10px;
@@ -95,18 +105,18 @@
 	border-radius: 25px;
 }
 
-.container3 {
+.container4 {
 	display: flex;
 	height: 100vh;
-	width: 100%;
+	width: 50vw;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
 }
 
 img {
-	height: fit-content;
-	width: 300px;
+	height: 1000px;
+	width: fit-content;
 	border: solid;
 	border-width: 10px;
 	border-color: darkred;
