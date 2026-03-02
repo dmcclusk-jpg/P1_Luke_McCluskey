@@ -115,7 +115,19 @@
 }
 
 img {
-	height: 1000px;
+	height: 900px;
+	width: fit-content;
+	border: solid;
+	border-width: 10px;
+	border-color: darkred;
+	border-spacing: 5px;
+	padding: 25px;
+	background-color: beige;
+	border-radius: 25px;
+}
+
+.iframe {
+	height: fit-content;
 	width: fit-content;
 	border: solid;
 	border-width: 10px;
