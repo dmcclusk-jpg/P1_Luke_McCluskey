@@ -25,7 +25,7 @@
 	width: 100vw;
 	flex-direction: row;
 	gap: 10px;
-	justify-content: margin-top;
+	justify-content: center;
 	align-items: margin-top;
 }
 
@@ -68,12 +68,12 @@
 	text-transform: uppercase;
 	line-height: 25px;
 	letter-spacing: normal;
-	color: darkred;
-	background-color: beige;
 	padding: 25px;
 	position: relative;
 	height: fit-content;
 	width: 600px;
+	color: darkred;
+	background-color: beige;
 	margin: 25px;
 	border: solid;
 	border-width: 10px;
@@ -105,6 +105,38 @@
 	border-radius: 25px;
 }
 
+.comic-cover-picture-container {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+
+.Amazing_Spider-Man_Vol_1_121 {
+	height: 450px;
+	width: fit-content;
+	border: solid;
+	border-width: 10px;
+	border-color: darkred;
+	border-spacing: 5px;
+	padding: 25px;
+	background-color: beige;
+	border-radius: 25px;
+	margin: 25px;
+}
+
+.Amazing_Spider-Man_Vol_1_122 {
+	height: 450px;
+	width: fit-content;
+	border: solid;
+	border-width: 10px;
+	border-color: darkred;
+	border-spacing: 5px;
+	padding: 25px;
+	background-color: beige;
+	border-radius: 25px;
+	margin: 25px;
+}
+
 .container4 {
 	display: flex;
 	height: 100vh;
@@ -114,9 +146,7 @@
 	align-items: center;
 }
 
-img {
-	height: 900px;
-	width: fit-content;
+.IMG_6207 {
 	border: solid;
 	border-width: 10px;
 	border-color: darkred;
@@ -124,6 +154,7 @@ img {
 	padding: 25px;
 	background-color: beige;
 	border-radius: 25px;
+	margin: 25px;
 }
 
 .iframe {
@@ -149,7 +180,7 @@ img {
 	letter-spacing: normal;
 	padding: 25px;
 	position: relative;
-	height: 250px;
+	height: fit-content;
 	width: 500px;
 	color: darkred;
 	background-color: beige;
@@ -161,12 +192,51 @@ img {
 	border-radius: 25px;
 }
 
-b {
+.paragraph5 {
+	font-style: bold;
+	font-weight: 40px;
+	font-size: 20px;
+	font-family: Back Issues BB;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 25px;
+	letter-spacing: normal;
+	padding: 25px;
+	position: relative;
+	height: 450px;
+	width: fit-content;
+	color: darkred;
 	background-color: beige;
+	margin: 25px;
+	border: solid;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
+	border-radius: 25px;
+	align-items: margin-bottom;
 }
 
-i {
+button {
+	font-style: bold;
+	font-style: italic;
+	font-weight: 40px;
+	font-size: 50px;
+	font-family: Back Issues BB;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 60px;
+	letter-spacing: normal;
+	padding: 25px;
+	position: relative;
+	height: fit-content;
+	width: fit-content;
+	color: darkblue;
 	background-color: beige;
+	border: solid;
+	border-width: 10px;
+	border-color: darkred;
+	border-spacing: 5px;
+	border-radius: 25px;
 }
 
 .heading1 {
@@ -190,4 +260,16 @@ i {
 	border-color: darkred;
 	border-spacing: 5px;
 	border-radius: 25px;
+}
+
+b {
+	background-color: beige;
+}
+
+i {
+	background-color: beige;
+}
+
+a {
+	text-decoration: none;
 }

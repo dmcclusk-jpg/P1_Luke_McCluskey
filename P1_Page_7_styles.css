@@ -1,0 +1,267 @@
+* {
+	background-color: palegoldenrod;
+}
+
+.container1 {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.title-container {
+	display: flex;
+	flex-direction: row;
+	width: 100vw;
+	height: 20vh;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.container2 {
+	display: flex;
+	width: 100vw;
+	flex-direction: row;
+	gap: 10px;
+	justify-content: center;
+	align-items: margin-top;
+}
+
+.container3 {
+	display: flex;
+	width: 50vw;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.paragraph1 {
+	font-style: bold;
+	font-weight: 40px;
+	font-size: 20px;
+	font-family: Back Issues BB;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 25px;
+	letter-spacing: normal;
+	padding: 25px;
+	position: relative;
+	height: fit-content;
+	width: 600px;
+	color: darkred;
+	background-color: beige;
+	margin: 25px;
+	border: solid;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
+	border-radius: 25px;
+}
+
+.paragraph2 {
+	font-style: bold;
+	font-weight: 40px;
+	font-size: 20px;
+	font-family: Back Issues BB;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 25px;
+	letter-spacing: normal;
+	padding: 25px;
+	position: relative;
+	height: fit-content;
+	width: 600px;
+	color: darkred;
+	background-color: beige;
+	margin: 25px;
+	border: solid;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
+	border-radius: 25px;
+}
+
+.paragraph3 {
+	font-style: bold;
+	font-weight: 40px;
+	font-size: 20px;
+	font-family: Back Issues BB;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 25px;
+	letter-spacing: normal;
+	padding: 25px;
+	position: relative;
+	height: fit-content;
+	width: 600px;
+	color: darkred;
+	background-color: beige;
+	margin: 25px;
+	border: solid;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
+	border-radius: 25px;
+}
+
+.container4 {
+	display: flex;
+	height: 100vh;
+	width: 50vw;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.Amazing_Spider-Man_Vol_1_121_Last_Panel {
+	border: solid;
+	border-width: 10px;
+	border-color: darkred;
+	border-spacing: 5px;
+	padding: 25px;
+	background-color: beige;
+	border-radius: 25px;
+	margin: 25px;
+}
+
+.iframe {
+	height: fit-content;
+	width: fit-content;
+	border: solid;
+	border-width: 10px;
+	border-color: darkred;
+	border-spacing: 5px;
+	padding: 25px;
+	background-color: beige;
+	border-radius: 25px;
+}
+
+.paragraph4 {
+	font-style: bold;
+	font-weight: 40px;
+	font-size: 20px;
+	font-family: Back Issues BB;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 25px;
+	letter-spacing: normal;
+	padding: 25px;
+	position: relative;
+	height: fit-content;
+	width: 500px;
+	color: darkred;
+	background-color: beige;
+	margin: 25px;
+	border: solid;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
+	border-radius: 25px;
+}
+
+.paragraph5 {
+	font-style: bold;
+	font-weight: 40px;
+	font-size: 20px;
+	font-family: Back Issues BB;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 25px;
+	letter-spacing: normal;
+	padding: 25px;
+	position: relative;
+	height: 450px;
+	width: fit-content;
+	color: darkred;
+	background-color: beige;
+	margin: 25px;
+	border: solid;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
+	border-radius: 25px;
+	align-items: margin-bottom;
+}
+
+.paragraph6 {
+	font-style: bold;
+	font-weight: 40px;
+	font-size: 20px;
+	font-family: Back Issues BB;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 25px;
+	letter-spacing: normal;
+	padding: 25px;
+	position: relative;
+	height: 450px;
+	width: fit-content;
+	color: darkred;
+	background-color: beige;
+	margin: 25px;
+	border: solid;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
+	border-radius: 25px;
+	align-items: margin-bottom;
+}
+
+button {
+	font-style: bold;
+	font-style: italic;
+	font-weight: 40px;
+	font-size: 50px;
+	font-family: Back Issues BB;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 60px;
+	letter-spacing: normal;
+	padding: 25px;
+	position: relative;
+	height: fit-content;
+	width: fit-content;
+	color: darkblue;
+	background-color: beige;
+	border: solid;
+	border-width: 10px;
+	border-color: darkred;
+	border-spacing: 5px;
+	border-radius: 25px;
+}
+
+.heading1 {
+	font-style: bold;
+	font-style: italic;
+	font-weight: 40px;
+	font-size: 50px;
+	font-family: Back Issues BB;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 60px;
+	letter-spacing: normal;
+	padding: 25px;
+	position: relative;
+	height: fit-content;
+	width: fit-content;
+	color: darkblue;
+	background-color: beige;
+	border: solid;
+	border-width: 10px;
+	border-color: darkred;
+	border-spacing: 5px;
+	border-radius: 25px;
+}
+
+b {
+	background-color: beige;
+}
+
+i {
+	background-color: beige;
+}
+
+a {
+	text-decoration: none;
+}

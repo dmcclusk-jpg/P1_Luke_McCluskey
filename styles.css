@@ -1,0 +1,149 @@
+body {
+    background-image: url("./assets/Web_Background_Image.svg"); /* 1. Specify the image path */
+    background-repeat: no-repeat;            /* 2. Prevent the image from repeating */
+    background-size: cover;                  /* 3. Scale the image to cover the entire viewport */
+    background-position: center;             /* 4. Center the image on the page */
+    background-attachment: fixed;            /* 5. Keep the image fixed when scrolling (optional parallax effect) */
+    background-color: #cccccc;               /* 6. A fallback color if the image can't load */
+    height: 110vh;
+    width: 110vw;                          /* 7. Ensure the body takes the full viewport height */
+}
+
+
+.container1 {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	width: 100vw;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
+}
+
+.Enter_The_Web {
+	justify-content: center;
+	align-items: center;
+}
+
+/* Navigation section */
+.nav-section {
+	margin-top: 16px;
+	width: 100%;
+	max-width: 1300px;
+	padding: 24px 32px 40px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 24px;
+	background-color: rgba(0, 0, 0, 0.35);
+	backdrop-filter: blur(6px);
+	border-radius: 24px;
+}
+
+.nav-heading {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	font-size: 2.5rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	color: #ffffff;
+	text-align: center;
+}
+
+.nav-grid {
+	display: grid;
+	grid-template-columns: repeat(5, minmax(0, 1fr));
+	justify-items: center;
+	align-items: stretch;
+	gap: 16px;
+}
+
+.nav-button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 0;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 26px 24px;
+	border-radius: 25px;
+	border: 10px solid darkred;
+	background-color: beige;
+	color: darkblue;
+	font-family: "Back Issues BB", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	line-height: 1.3;
+	letter-spacing: normal;
+	text-decoration: none;
+	text-align: center;
+	box-shadow: none;
+	cursor: pointer;
+	transition:
+		background-color 0.25s ease,
+		color 0.25s ease,
+		transform 0.2s ease,
+		box-shadow 0.2s ease,
+		opacity 0.4s ease;
+	opacity: 0;
+	transform: translateY(12px) scale(0.98);
+}
+
+.nav-button.is-visible {
+	opacity: 1;
+	transform: translateY(0) scale(1);
+}
+
+.nav-button:hover,
+.nav-button:focus-visible {
+	background-color: #ffffff;
+	color: #000000;
+	transform: translateY(-2px) scale(1.02);
+	box-shadow: 0 8px 14px rgba(0, 0, 0, 0.4);
+}
+
+.nav-button:active,
+.nav-button.is-pressed {
+	transform: translateY(1px) scale(0.97);
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Entrance animations */
+.animate-in {
+	opacity: 0;
+	transform: translateY(18px);
+}
+
+.animate-in.is-visible {
+	opacity: 1;
+	transform: translateY(0);
+	animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(24px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+	.nav-section {
+		padding: 20px 16px 32px;
+	}
+
+	.nav-grid {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+}
+
+@media screen and (max-width: 512px) {
+	.nav-button {
+		min-width: 100%;
+	}
+}

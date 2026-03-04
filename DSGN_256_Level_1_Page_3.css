@@ -79,6 +79,29 @@
 	border-radius: 25px;
 }
 
+button {
+	font-style: bold;
+	font-style: italic;
+	font-weight: 40px;
+	font-size: 50px;
+	font-family: Back Issues BB;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 60px;
+	letter-spacing: normal;
+	padding: 25px;
+	position: relative;
+	height: fit-content;
+	width: fit-content;
+	color: darkblue;
+	background-color: beige;
+	border: solid;
+	border-width: 10px;
+	border-color: darkred;
+	border-spacing: 5px;
+	border-radius: 25px;
+}
+
 .container4 {
 	height: fit-content;
 	width: 40vw;

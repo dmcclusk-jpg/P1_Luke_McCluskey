@@ -22,7 +22,9 @@
 .container2 {
 	display: flex;
 	width: 100vw;
-	flex-direction: row;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	gap: 10px;
 }
 
@@ -39,8 +41,8 @@
 	background-color: beige;
 	padding: 25px;
 	position: relative;
-	height: fit-content;
-	width: 900px;
+	height: 125px;
+	width: 500px;
 	margin: 25px;
 	border: solid;
 	border-width: 10px;
@@ -63,7 +65,7 @@
 	padding: 25px;
 	position: relative;
 	height: fit-content;
-	width: 600px;
+	width: 500px;
 	margin: 25px;
 	border: solid;
 	border-width: 10px;
@@ -84,7 +86,30 @@
 	padding: 25px;
 	position: relative;
 	height: fit-content;
-	width: 600px;
+	width: 500px;
+	color: darkred;
+	background-color: beige;
+	margin: 25px;
+	border: solid;
+	border-width: 10px;
+	border-color: darkblue;
+	border-spacing: 5px;
+	border-radius: 25px;
+}
+
+.opening-paragraph {
+	font-style: bold;
+	font-weight: 40px;
+	font-size: 20px;
+	font-family: Back Issues BB;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 25px;
+	letter-spacing: normal;
+	padding: 25px;
+	position: relative;
+	height: fit-content;
+	width: 500px;
 	color: darkred;
 	background-color: beige;
 	margin: 25px;
@@ -135,6 +160,29 @@ img {
 	border: solid;
 	border-width: 10px;
 	border-color: darkblue;
+	border-spacing: 5px;
+	border-radius: 25px;
+}
+
+button {
+	font-style: bold;
+	font-style: italic;
+	font-weight: 40px;
+	font-size: 50px;
+	font-family: Back Issues BB;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 60px;
+	letter-spacing: normal;
+	padding: 25px;
+	position: relative;
+	height: fit-content;
+	width: fit-content;
+	color: darkblue;
+	background-color: beige;
+	border: solid;
+	border-width: 10px;
+	border-color: darkred;
 	border-spacing: 5px;
 	border-radius: 25px;
 }
